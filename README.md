@@ -1,24 +1,11 @@
-# README
+rake db:migrate 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails s 
 
-Things you may want to cover:
+please parse using the following format 
 
-* Ruby version
+Valid Config String : 
 
-* System dependencies
+# This is what a comment looks like, ignore it # All these config lines are valid host = test.com server_id=55331 server_load_alarm=2.5 user= user # comment can appear here as well verbose =true test_mode = on debug_mode = off log_file_path = /tmp/logfile.log send_notifications = yes 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://youtu.be/gtQpKqKYvBk
